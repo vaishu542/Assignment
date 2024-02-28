@@ -38,10 +38,9 @@ class Rectangle extends Shape {
 public class Question1 {
     public static void main(String[] args) {
         // Creating an array of Shape objects
-        Shape[] shapes = new Shape[3];
-        shapes[0] = new Circle(5.0);
-        shapes[1] = new Rectangle(4.0, 6.0);
-        shapes[2] = new Circle(3.0);
+        Shape[] shapes = new Shape[2];
+        shapes[0] = new Circle(5.7);
+        shapes[1] = new Rectangle(4.2, 6.4);
         
         for (Shape shape : shapes) {
             System.out.println("Area: " + shape.calculateArea());
